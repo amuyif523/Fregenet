@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display, Noto_Sans_Ethiopic } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
@@ -25,7 +25,10 @@ const notoSansEthiopic = Noto_Sans_Ethiopic({
   display: "swap",
 });
 
+// ... imports
+
 export const metadata: Metadata = {
+  metadataBase: new URL('https://fregenet-ngo-v2.vercel.app'), // Placeholder or localhost
   title: "Fregenet Kidan Lehitsanat | Addis Ababa Education NGO",
   description: "Fregenet Kidan Lehitsanat is an NGO in Addis Ababa providing high-quality education to children from underserved communities. Sponsor a child in Ethiopia today.",
   keywords: ["Fregenet Kidan Lehitsanat", "Addis Ababa Education NGO", "Sponsor a child in Ethiopia", "Ethiopian Charity", "Education Nonprofit"],
@@ -36,12 +39,15 @@ export const metadata: Metadata = {
     type: 'website',
   },
   manifest: "/manifest.json",
-  themeColor: "#1B4332",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
     title: "Fregenet NGO",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#1B4332",
 };
 
 export default async function RootLayout({
