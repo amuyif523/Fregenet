@@ -1,0 +1,20 @@
+{
+    "Hero": {
+        "title": "Education is the Bridge to the Future",
+        "description": "For over 20 years, the Fregenet Foundation has been transforming lives in Addis Ababa, providing high-quality education and holistic support to children from underserved communities.",
+        "sponsor": "Sponsor a Student",
+        "impact": "See Our Impact"
+    },
+    "ImpactStats": {
+        "graduationRate": "Graduation Rate",
+        "graduationDesc": "Consistent academic excellence",
+        "studentsSupported": "Students Supported",
+        "studentsDesc": "Providing full tuition and meals",
+        "yearsService": "Decades of Service",
+        "yearsDesc": "Serving the community since 2004"
+    },
+    "Metadata": {
+        "title": "Fregenet Kidan Lehitsanat",
+        "description": "Transforming lives through education."
+    }
+}
