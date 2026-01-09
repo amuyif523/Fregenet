@@ -50,7 +50,7 @@ export function Hero() {
                     >
                         <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-xl">
                             <Image
-                                src="/hero-image.png"
+                                src="/hero-image.webp"
                                 alt="Ethiopian students learning in a classroom"
                                 fill
                                 className="object-cover"

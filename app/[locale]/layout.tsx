@@ -26,8 +26,22 @@ const notoSansEthiopic = Noto_Sans_Ethiopic({
 });
 
 export const metadata: Metadata = {
-  title: "Fregenet Kidan Lehitsanat",
-  description: "Transforming lives through education.",
+  title: "Fregenet Kidan Lehitsanat | Addis Ababa Education NGO",
+  description: "Fregenet Kidan Lehitsanat is an NGO in Addis Ababa providing high-quality education to children from underserved communities. Sponsor a child in Ethiopia today.",
+  keywords: ["Fregenet Kidan Lehitsanat", "Addis Ababa Education NGO", "Sponsor a child in Ethiopia", "Ethiopian Charity", "Education Nonprofit"],
+  openGraph: {
+    title: "Fregenet Kidan Lehitsanat | Education for Ethiopia's Future",
+    description: "Transforming lives through education. Join us in supporting underserved children in Addis Ababa.",
+    images: [{ url: '/hero-image.webp', width: 1200, height: 630 }],
+    type: 'website',
+  },
+  manifest: "/manifest.json",
+  themeColor: "#1B4332",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Fregenet NGO",
+  },
 };
 
 export default async function RootLayout({

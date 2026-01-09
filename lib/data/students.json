@@ -4,41 +4,41 @@
         "name": "Abebe",
         "grade": "4",
         "dream": "Pilot",
-        "image": "/photo_2026-01-09_21-23-59.jpg"
+        "image": "/photo_2026-01-09_21-23-59.webp"
     },
     {
         "id": "2",
         "name": "Hermela",
         "grade": "3",
         "dream": "Doctor",
-        "image": "/photo_2026-01-09_21-24-04.jpg"
+        "image": "/photo_2026-01-09_21-24-04.webp"
     },
     {
         "id": "3",
         "name": "Dawit",
         "grade": "5",
         "dream": "Engineer",
-        "image": "/photo_2026-01-09_21-24-07.jpg"
+        "image": "/photo_2026-01-09_21-24-07.webp"
     },
     {
         "id": "4",
         "name": "Sara",
         "grade": "2",
         "dream": "Teacher",
-        "image": "/photo_2026-01-09_21-24-09.jpg"
+        "image": "/photo_2026-01-09_21-24-09.webp"
     },
     {
         "id": "5",
         "name": "Yonas",
         "grade": "6",
         "dream": "Artist",
-        "image": "/photo_2026-01-09_21-24-12.jpg"
+        "image": "/photo_2026-01-09_21-24-12.webp"
     },
     {
         "id": "6",
         "name": "Bethlehem",
         "grade": "4",
         "dream": "Scientist",
-        "image": "/photo_2026-01-09_21-24-21.jpg"
+        "image": "/photo_2026-01-09_21-24-21.webp"
     }
 ]

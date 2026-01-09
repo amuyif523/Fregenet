@@ -1,0 +1,16 @@
+{
+    "name": "Fregenet Kidan Lehitsanat",
+    "short_name": "Fregenet NGO",
+    "description": "Transforming lives through education in Ethiopia",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#1B4332",
+    "icons": [
+        {
+            "src": "/globe.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ]
+}
