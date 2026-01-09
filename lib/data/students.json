@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Abebe",
+        "grade": "4",
+        "dream": "Pilot",
+        "image": "/photo_2026-01-09_21-23-59.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Hermela",
+        "grade": "3",
+        "dream": "Doctor",
+        "image": "/photo_2026-01-09_21-24-04.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Dawit",
+        "grade": "5",
+        "dream": "Engineer",
+        "image": "/photo_2026-01-09_21-24-07.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Sara",
+        "grade": "2",
+        "dream": "Teacher",
+        "image": "/photo_2026-01-09_21-24-09.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Yonas",
+        "grade": "6",
+        "dream": "Artist",
+        "image": "/photo_2026-01-09_21-24-12.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Bethlehem",
+        "grade": "4",
+        "dream": "Scientist",
+        "image": "/photo_2026-01-09_21-24-21.jpg"
+    }
+]
