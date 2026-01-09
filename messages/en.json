@@ -1,4 +1,9 @@
 {
+    "Navigation": {
+        "sponsor": "Sponsor",
+        "donate": "Donate",
+        "home": "Home"
+    },
     "Hero": {
         "title": "Education is the Bridge to the Future",
         "description": "For over 20 years, the Fregenet Foundation has been transforming lives in Addis Ababa, providing high-quality education and holistic support to children from underserved communities.",

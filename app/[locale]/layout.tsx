@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import { Navbar } from '@/components/sections/navbar';
 import "../globals.css";
 
 const inter = Inter({
@@ -50,14 +51,17 @@ export default async function RootLayout({
 
   const isAmharic = locale === 'am';
   const fontClass = isAmharic
-    ? `${notoSansEthiopic.variable} font-sans`
+    ? `${notoSansEthiopic.variable} font-sans leading-[1.6]`
     : `${inter.variable} ${playfair.variable} font-sans`;
 
   return (
     <html lang={locale}>
-      <body className={`${fontClass} antialiased`}>
+      <body className={`${fontClass} antialiased min-h-screen flex flex-col`}>
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <Navbar />
+          <main className="flex-1">
+            {children}
+          </main>
         </NextIntlClientProvider>
       </body>
     </html>
