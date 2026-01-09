@@ -37,6 +37,18 @@
         "paymentMethod": "Payment Method",
         "submit": "Donate Now"
     },
+    "Story": {
+        "challenge": {
+            "title": "A Long Walk for Water",
+            "desc": "Before Fregenet, Makeda used to walk 5km every morning just to fetch water for her family, leaving no time for school or dreams.",
+            "location": "Addis Ababa outskirts, 2018"
+        },
+        "success": {
+            "title": "Walking Towards a Dream",
+            "desc": "Now, she walks just 500m to the Fregenet School gates. With a full scholarship, daily meals, and a safe environment, she is top of her class.",
+            "impact": "Aspiring Doctor, Class of 2030"
+        }
+    },
     "Sponsor": {
         "title": "Sponsor a Student",
         "subtitle": "Change a life today. Your sponsorship provides tuition, uniforms, meals, and medical care.",
