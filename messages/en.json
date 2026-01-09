@@ -13,6 +13,41 @@
         "yearsService": "Decades of Service",
         "yearsDesc": "Serving the community since 2004"
     },
+    "Donate": {
+        "title": "Invest in the Future of Ethiopia's Children",
+        "intro": "Your contribution directly empowers children through education, providing them with the tools they need to build a brighter future.",
+        "trustedBy": "Why Trust Us?",
+        "securePayment": "Secure Payment",
+        "frequency": {
+            "oneTime": "One-time",
+            "monthly": "Monthly"
+        },
+        "tiers": {
+            "supplies": "School Supplies",
+            "tuition": "Monthly Tuition",
+            "classroom": "Classroom Upgrade"
+        },
+        "customAmount": "Custom Amount",
+        "dedication": "Dedication / Note (Optional)",
+        "paymentMethod": "Payment Method",
+        "submit": "Donate Now"
+    },
+    "Sponsor": {
+        "title": "Sponsor a Student",
+        "subtitle": "Change a life today. Your sponsorship provides tuition, uniforms, meals, and medical care.",
+        "grade": "Grade",
+        "dream": "Dream",
+        "sponsorBtn": "Sponsor"
+    },
+    "Trust": {
+        "title": "Why Trust Us?",
+        "timeline": {
+            "2004": "Foundation Established",
+            "2010": "First School Built",
+            "2016": "Expanded to 300 Students",
+            "2024": "20 Years of Impact"
+        }
+    },
     "Metadata": {
         "title": "Fregenet Kidan Lehitsanat",
         "description": "Transforming lives through education."
